@@ -2,7 +2,7 @@ import BCA from './bca'
 
 export default class ForexRate {
 
-    public async main(){
+    public main(){
         const bca = new BCA()
         return bca.service({
             method: 'GET',
