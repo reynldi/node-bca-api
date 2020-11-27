@@ -27,17 +27,17 @@ BCA_API_KEY_SECRET= YOUR_BCA_API_KEY_SECRET
 ```js
 import BCA from './bca'
 
-public async main(){
-	const bca = new BCA()
-	return bca.service({
-		method: 'GET',
-		url: '/general/rate/forex',
-		data: ''
-	}).then(res => {
-		return res
-	}).catch(err => {
-		return err
-	})
+public main(){
+   const bca = new BCA()
+   return bca.service({
+	method: 'GET',
+	url: '/general/rate/forex',
+	data: ''
+   }).then(res => {
+	return res
+   }).catch(err => {
+	return err
+   })
 }
 
 ```
