@@ -1,5 +1,6 @@
-
-![BCA Developer Image](https://developer.bca.co.id/components/com_apiportal/assets/imgportal/logobca.png)
+<p align="center">
+  <img src="https://developer.bca.co.id/components/com_apiportal/assets/imgportal/logobca.png" />
+</p>
 
 # Node BCA API
 
